@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Firas Soekhai, Bob van Berckel">
+    <meta name="description" content="WeQreate is een student opgerichtte bedrijf, gericht op Graphic Design en Website ontwikkeling. Wij offeren kleine, maar toch goeie websites die u doen verbazen.">
+    <meta name="keywords" content="Webdeveloper">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=yes">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Wijzer Amsterdam</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="buttonrij">
+            <div class="buttonrij__button">
+                <img src="./images/Group_10.png" alt="Gezondheid icon">
+                <a href="" id="gezondheidButton">GEZONDHEID</a><br>
+            </div>
+            <div class="buttonrij__button">
+                <img src="./images/Group_4.png" alt="Ouders & Leerkrachten icon">
+                <a href="">OUDERS & LEERKRACHTEN</a><br>
+            </div>
+            <div class="buttonrij__button">
+                <img src="./images/Group_6.png" alt="Digitale hulp icon">
+                <a href="">DIGITALE HULP</a><br>
+            </div>
+            <div class="buttonrij__button">
+                <img src="./images/Group_8.png" alt="Sport & Spel icon">
+                <a href="">SPORT & SPEL</a><br>
+            </div>
+            <div class="buttonrij__button">
+                <img src="./images/Group_12.png" alt="Hulp aanbieden icon">
+                <a href="">HULP AANBIEDEN</a><br>
+            </div>
+            <div class="buttonrij__button">
+                <img src="./images/Group_14.png" alt="Thuiswerken icon">
+                <a href="">THUISWERKEN</a>
+            </div>
+        </div>
+        <img src="./images/wijzer.gif" alt="Karin, de hulp van wijzeramsterdam." class="karin">
+        <div class="buttonrij">
+            <div class="buttonrij__button">
+                <a href="">ONTSPANNING</a><br>
+                <img src="./images/Group 16.png" alt="Ontspanning icon">
+            </div>
+            <div class="buttonrij__button">
+                <a href="">WAT IS WIJZER</a><br>
+                <img src="./images/Group_26.png" alt="Wat is wijzer icon">
+            </div>
+            <div class="buttonrij__button">
+                <a href="">LEREN EN MAKEN</a><br>
+                <img src="./images/Group 18.png" alt="Leren en maken icon">
+            </div>
+            <div class="buttonrij__button">
+                <a href="">DIGITALE VEILIGHEID</a><br>
+                <img src="./images/Group_20.png" alt="Digitale veiligheid icon">
+            </div>
+            <div class="buttonrij__button">
+                <a href="">JUNIOR</a><br>
+                <img src="./images/Group_22.png" alt="Junior icon">
+            </div>
+            <div class="buttonrij__button">
+                <a href="">ZINGEVING</a>
+                <img src="./images/Group_24.png" alt="Zingeving icon">
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="bot">
+            <div class="stelvraag">
+                <p>Typ uw vraag in het witte kader:</p>
+                <div class="chatbot">
+                    <div class="chatbotbox" id="chatbotbox" style="overflow: scroll; height: 70vh;">
+                        <div class="inputclass">
+                            <input type="text" id="klantvraag" placeholder="Hoe zet ik mijn computer aan?" /><br />
+                            <input type="submit" id="inputsubmit" value="Stel je vraag!">
+                        </div>
+                        <div id="chatoutput"></div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./images/pagina3.png" alt="foto chatbot">
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/imageLoader.js"></script>
+    <script src="./scripts/chatbot.js"></script>
+</body>
+</html>
